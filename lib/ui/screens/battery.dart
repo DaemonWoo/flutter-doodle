@@ -76,8 +76,8 @@ class BatteryScreenState extends State<BatteryScreen> {
           child: Column(
             children: [
               Text("Battery Monitor", style: styles.font.pageTitle),
+              Text("currently works only on Android", style: styles.font.small),
               SizedBox(height: 40),
-
               Stack(
                 alignment: .center,
                 children: [

@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 
-import '/ui/screens/battery.dart';
 import '/theme.dart';
+import '/ui/screens/main.dart';
 
-void main() => runApp(
-  MaterialApp(
+void main() {
+  runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: BatteryScreen(),
+  
+    home: MainScreen(),
     theme: darkTheme,
-  ),
-);
+  ));
+}
