@@ -15,6 +15,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
 import 'package:flutter/widgets.dart';
+// ignore: depend_on_referenced_packages
 import 'package:vector_math/vector_math_64.dart' show Quad, Vector3;
 
 class VelocitySensitiveScaleRecognizer extends ScaleGestureRecognizer {
